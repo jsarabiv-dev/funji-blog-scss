@@ -1,0 +1,12 @@
+@use "../settings/variables";
+
+a {
+  color: variables.$darker-color;
+  text-decoration: underline;
+  transition: all 0.3s;
+
+  &:hover,
+  &:focus {
+    color: variables.$color-hover-link;
+  }
+}

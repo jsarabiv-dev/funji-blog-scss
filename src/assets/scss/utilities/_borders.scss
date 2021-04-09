@@ -1,0 +1,6 @@
+@use "../settings/variables";
+
+.has-separator{
+  border-bottom: 1.5px solid variables.$gray-color3;
+  border-radius: 0;
+}

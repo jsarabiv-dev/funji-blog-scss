@@ -1,0 +1,82 @@
+@use "../settings/variables";
+
+.o-container {
+  max-width: variables.$max-width;
+  padding: variables.$spacing variables.$spacing-s;
+  margin: 0 auto;
+
+  //Debug Option
+  border: 1px solid black;
+}
+
+.o-container-100 {
+  min-width: 100%;
+  //padding: variables.$spacing variables.$spacing-s;
+  margin: 0 auto;
+  //Debug Option
+  border: 2px solid black;
+}
+
+.o-container-50 {
+  min-width: 50%;
+  padding: variables.$spacing variables.$spacing-s;
+  margin: 0 auto;
+
+  //Debug Option
+  border: 2px solid black;
+}
+
+
+
+.o-container-p1{
+  padding: 1rem;
+}
+
+.o-container-100vh{
+  min-width: 100%;
+  height: 100vh;
+}
+
+.o-container-content-card{
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 3rem minmax(8rem, auto) 3rem;
+  padding: variables.$spacing-ss variables.$spacing-ss;
+  margin: variables.$spacing-ss variables.$spacing-m;
+  min-height: 15rem;
+}
+
+//TODO validar si se puede crear function para hacer grids mas dinamico
+.o-post-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(18rem, 20rem));
+  grid-template-rows: repeat(auto-fill, minmax(20rem, auto));
+  justify-content: center;
+}
+
+
+.o-container-sb{
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.o-container-padding-s{
+  padding-bottom: variables.$spacing-s;
+  padding-top: variables.$spacing-s;
+}
+
+//TODO pasar a funcion cuando escale
+.o-container-section{
+  display: flex;
+  justify-content: center;
+  padding: variables.$spacing-l variables.$spacing-l;
+  min-width: 100%;
+  background-color: variables.$gallery2;
+}
+
+.o-container-center{
+  text-align: center;
+  width: variables.$max-width;
+  //TODO: Crear media query para mostrar 3 cards en pantalla note y 4 pantalla grande
+}

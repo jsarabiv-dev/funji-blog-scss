@@ -1,0 +1,23 @@
+@use "../../settings/variables";
+
+.a-lead {
+  font-size: variables.$fs-title-s;
+  line-height: 1.65;
+  letter-spacing: 1px;
+}
+
+.a-title {
+  font-size: variables.$fs-title-l;
+}
+
+.a-title-m {
+  font-size: variables.$fs-title-m;
+}
+
+.a-title-s {
+  font-size: variables.$fs-title-s;
+}
+
+.a-title-gray {
+  color: variables.$gray-color2;
+}

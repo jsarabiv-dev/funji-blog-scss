@@ -1,0 +1,8 @@
+@use "../../settings/variables";
+
+//TODO: Eliminar al refactorizar
+.g-box-post{
+  padding: variables.$spacing-s variables.$spacing-l;
+  min-width: 100%;
+  background-color: variables.$gallery2;
+}

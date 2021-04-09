@@ -1,0 +1,12 @@
+@use "../settings/variables";
+
+body {
+  color: variables.$primary-color;
+  background-color: variables.$gallery;
+  font-family: variables.$font-family;
+  font-size: variables.$fs-body;
+  //line-height: 1.8;
+
+  // Desarrollo
+  //height: 2000px;
+}

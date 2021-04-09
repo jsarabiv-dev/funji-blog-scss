@@ -1,0 +1,10 @@
+@use "../../settings/variables";
+
+.g-card-post{
+  margin: 1rem;
+  min-height: 26rem;
+  background-color: variables.$gallery;
+  text-align: center;
+  border: 0.1px solid variables.$gray-color3 ;
+  border-radius: 0.3rem;
+}

@@ -1,0 +1,17 @@
+@use "../../settings/variables";
+
+.a-box {
+  padding: 1.63rem;
+  border-radius: 0.37rem;
+  color: variables.$darker-color;
+  max-width: variables.$max-width;
+  background-color: variables.$lighter-color2;
+  height: 500px;
+}
+
+.a-box-title {
+  padding: 0.5rem;
+  color: variables.$darker-color;
+  //background-color: #00ADB5;
+  margin: 0 auto;
+}

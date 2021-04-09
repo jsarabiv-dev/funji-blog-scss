@@ -1,0 +1,41 @@
+// Generic
+@use "generic/normalize";
+@use "generic/box-sizing";
+
+// Elements
+@use "elements/body";
+@use "elements/headings";
+@use "elements/img";
+@use "elements/links";
+
+// Objects
+@use "objects/containers";
+@use "objects/ui-list";
+
+// Atoms
+@use "components/atoms/box";
+@use "components/atoms/typography";
+@use "components/atoms/btn";
+@use "components/atoms/img-post";
+@use "components/atoms/img-header";
+@use "components/atoms/logo-profile";
+@use "components/atoms/title-card";
+@use "components/atoms/icons";
+@use "components/atoms/creation-info";
+
+// Organism
+@use "components/organisms/header";
+@use "components/organisms/box-posts";
+@use "components/organisms/card-post";
+
+// Molecules
+@use "components/molecules/box-title";
+@use "components/molecules/box-buttons";
+@use "components/molecules/box-img-header";
+@use "components/molecules/box-author";
+
+// Utilities
+@use "utilities/flex";
+@use "utilities/error";
+@use "utilities/borders";
+@use "utilities/box-shadows";

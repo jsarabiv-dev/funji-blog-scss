@@ -1,0 +1,43 @@
+@use "../../settings/variables";
+
+.a-btn {
+  display: inline-block;
+  padding: 0.5rem 0.5rem;
+  border: none;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  font-size: variables.$fs-btn;
+  letter-spacing: 0.03em;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.3s;
+
+  &--block {
+    display: block;
+    width: 100%;
+  }
+
+  &--primary {
+    color: variables.$darker-color;
+    background-color: #fff;
+    &:hover,
+    &:focus {
+      background: variables.$color-hover;
+      border-radius: 0.3rem;
+      color: variables.$darker-color;
+    }
+  }
+
+  &__card-post{
+    height: 2rem;
+    color: variables.$primary-color;
+    font-weight: 900;
+    &:hover,
+    &:focus {
+      background: variables.$bondi-blue;
+      border-radius: 0.3rem;
+      color: variables.$darker-color;
+    }
+  }
+
+}

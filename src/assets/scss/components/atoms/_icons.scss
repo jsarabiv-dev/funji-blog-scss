@@ -1,0 +1,44 @@
+@use "../../settings/variables";
+
+$iconsPath: "../icons/";
+
+.a-icon {
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: block;
+  width: 1.5rem;
+  height: 1.5rem;
+  transition: all 0.3s;
+
+  &-eye {
+    background-image: url(#{$iconsPath}eye-color.svg);
+  }
+
+  &-message {
+    background-image: url(#{$iconsPath}speech-bubble.svg);
+  }
+
+  &-heart {
+    background-image: url(#{$iconsPath}love.svg);
+  }
+
+  &-save {
+    background-image: url(#{$iconsPath}salvar.svg);
+  }
+
+  &-profile {
+    border-radius: 50%;
+    width: 2.3rem;
+    height: 2.3rem;
+    background-image: url("https://lh5.googleusercontent.com/-npFJ3EmCofM/AAAAAAAAAAI/AAAAAAAAAAA/AMZuucmP1z7Az1E1GNpTBRSya57o2hrzRA/s96-c/photo.jpg");
+  }
+
+  &:hover,
+  &:focus {
+    transform: scale(1.2, 1.2);
+  }
+
+}
+
+
+

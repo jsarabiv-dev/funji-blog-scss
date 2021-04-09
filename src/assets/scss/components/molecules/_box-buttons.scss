@@ -1,0 +1,6 @@
+@use "../../settings/variables";
+//TODO eliminar cuando se termine de refactorizar
+.m-box_buttons{
+  padding-bottom: variables.$spacing-s;
+  padding-top: variables.$spacing-s;
+}

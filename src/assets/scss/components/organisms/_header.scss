@@ -1,0 +1,11 @@
+@use "../../settings/variables";
+
+.g-header{
+  min-width: 100%;
+  min-height: 4rem;
+  padding: variables.$spacing-s variables.$spacing-l;
+  margin: 0 auto;
+  z-index: variables.$z-header;
+  position: fixed;
+  background-color: variables.$gallery;
+}
